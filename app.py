@@ -9,7 +9,6 @@ CORS(app)
 def search():
     search_string = request.json.get('searchString', '')
     
-    # You can specify your text file's path here
     file_path = 'file.txt'
 
     result = []
